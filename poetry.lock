@@ -58,14 +58,14 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.4.2"
+version = "0.4.3"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "briefcase-0.4.2-py3-none-any.whl", hash = "sha256:daf921b4520915e002b0a0f8e4abc82f046bddedcc4a52e9cbb2a8c444ff3cd1"},
-    {file = "briefcase-0.4.2.tar.gz", hash = "sha256:e1026ad9502760d6f296bc2c68f32a3279f3af7a0560032356379c9b5860ed4f"},
+    {file = "briefcase-0.4.3-py3-none-any.whl", hash = "sha256:3c8144da91fd90c5f2b41e1eda19b8454e091ab876fc9dfed5c13a62d2fe9557"},
+    {file = "briefcase-0.4.3.tar.gz", hash = "sha256:9814899daab8c5f1faeb96896986986948668d6effc32fe25ed850e2cc81b29d"},
 ]
 
 [package.dependencies]
@@ -1044,4 +1044,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=77)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "3.14.2"
-content-hash = "2fe1bfb285cd0bc5568a716aadcd0ef67ed85c2af8e6341d2b17a302c3e3de3a"
+content-hash = "31da4b3d18bee3d8ccee27553c7ac39504923d6093b383c80e7f7d44adfcbc95"
