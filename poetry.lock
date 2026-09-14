@@ -58,20 +58,19 @@ chardet = ">=3.0.2"
 
 [[package]]
 name = "briefcase"
-version = "0.4.2"
+version = "0.4.5"
 description = "Tools to support converting a Python project into a standalone native application."
 optional = false
-python-versions = ">=3.10"
+python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "briefcase-0.4.2-py3-none-any.whl", hash = "sha256:daf921b4520915e002b0a0f8e4abc82f046bddedcc4a52e9cbb2a8c444ff3cd1"},
-    {file = "briefcase-0.4.2.tar.gz", hash = "sha256:e1026ad9502760d6f296bc2c68f32a3279f3af7a0560032356379c9b5860ed4f"},
+    {file = "briefcase-0.4.5-py3-none-any.whl", hash = "sha256:0fd06503b03bfbb52fb13137d49791e0c686bb3c39c9bd901e35ebf3de37aa2a"},
+    {file = "briefcase-0.4.5.tar.gz", hash = "sha256:b3c9e2f781ad6ca9e241a73ca80660624fed86db5b3e65a80b7a5bb697d54741"},
 ]
 
 [package.dependencies]
-binaryornot = "<0.5.0"
 build = ">=0.10"
-chardet = "<6.0"
+chardet = "<8.0"
 cookiecutter = ">=2.6.0,<3.0"
 dmgbuild = {version = ">=1.6.4,<2.0", markers = "sys_platform == \"darwin\""}
 GitPython = ">=3.1,<4.0"
@@ -1044,4 +1043,4 @@ test = ["pytest (>=6.0.0)", "setuptools (>=77)"]
 [metadata]
 lock-version = "2.1"
 python-versions = "3.14.2"
-content-hash = "2fe1bfb285cd0bc5568a716aadcd0ef67ed85c2af8e6341d2b17a302c3e3de3a"
+content-hash = "f92f1409cd7c880a9d04e27160c9b1d50d50822931085377688f5b8be38b9d5d"
